@@ -16,7 +16,7 @@
 
   - name: Install packages
     apt:
-      name: ['apt-transport-https', 'ca-certificates', 'curl', 'software-properties-common', 'nfs-common']
+      name: ['apt-transport-https', 'ca-certificates', 'curl', 'software-properties-common', 'nfs-common', 'conntrack']
       state: present
       update_cache: yes
 
