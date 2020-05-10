@@ -49,10 +49,18 @@ $ vagrant destroy
 ~~~
 
 
-## 注意事項
+## 使用上の注意事項
 
 * この動作環境では、ダッシュボードは利用できません。
 * もしminikube delete を実行した場合は、/usr/local/bin/minikube start --vm-driver none で起動してください。
+
+
+## 質問や不具合についての注意事項
+
+* この学習環境についての質問は、Issue https://github.com/takara9/vagrant-minikube/issues に投稿をお願いします。他の質問サイトなどに質問を投稿することは問題ありませんが、筆者は対応しません。
+* Minikube に本体の仕様や変更に関する質問には、Issueに挙げてもお答えできません。Kubernetes ドキュメントの[Minikubeコミュニティ](https://kubernetes.io/docs/setup/learning-environment/minikube/#community)へ質問をお願いします。
+
+
 
 ## 参考資料
 
